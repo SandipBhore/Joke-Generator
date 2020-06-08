@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Monofett&family=Sonsie+One&display=swap" rel="stylesheet">
+  <style>
+    body{
+      justify-content: center;
+      width: 50%;
+      margin: 5% auto;
+    }
+    .frm{
+      text-align: center;
+    }
+    h1{
+      color:#F0A500;
+    }
+    hr{
+      border: 1px solid #F0A500;
+      
+    }
+    #input{
+      width: 40%;
+      margin: 0 auto 5%;
+      border-color: #F0A500;
+      text-align: center;
+      font-family: 'Sonsie One', cursive;
+    }
+    #btn{
+      margin-bottom: 30px;
+    }
+  </style>
+  <title>Joke Generator</title>
+</head>
+<body>
+  <form class="frm">
+    <div>
+      
+      <label for="input"><h1>Joke Generator</h1></label>
+      <input placeholder="No of jokes" class="form-control mb-2" type="number" id=input>
+    </div>
+    <div>
+      <button class="btn btn-outline-success" id="btn">Get Joke</button>
+    </div>
+  </form>
+  <div>
+    <ul class="output">
+
+    </ul>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
